@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int sum(int a, int b)
+{
+
+    return a + b;
+}
+
+int main()
+{
+
+    int num1, num2;
+    cout << "Enter A NUMBER : ";
+    
+    if (!(cin >> num1)){
+        cout << "invalid";
+    return 1;
+}
+
+cout << "Enter A NUMBER : ";
+
+if (!(cin >> num2)){
+    cout << "invalid";
+return 1;
+
+}
+int result = sum(num1, num2);
+cout << "The sum is " << result;
+return 0;
+}
