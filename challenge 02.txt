@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+float div(float a, float b)
+{
+
+    return a / b;
+}
+int main (){
+    float num1,num2;
+    cout <<"Enter A Number ";
+    if (!(cin>>num1)){
+    cout<<"Invalid";
+    return 1;
+    }
+
+    cout<<"Enter A Number ";
+    if (!(cin>>num2)){
+    cout<<"Invalid";
+    return 1;
+    }
+
+    float result =div(num1,num2);
+    cout <<"The Result is "<< result;
+    return 0;
+}
+
